@@ -1,0 +1,16 @@
+.processLi {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  color: #B5B7B9;
+}
+.processLi h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 12px 0;
+
+}
+.process-li p {
+  font-size: 10px;
+}
