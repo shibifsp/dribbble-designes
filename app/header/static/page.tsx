@@ -4,7 +4,8 @@ import React from 'react'
 
 const navli = [
   {label:"coinVers", path:"/header/static/coinVers"},
-  {label:"item-2", path:"../../components/errorInform.tsx" }
+  {label:"hondaHighness", path:"/header/static/highness" },
+  {label:"item-3", path:"../app/components/errorInformation.tsx"}
 ]
 
 const pageStatic = () => {
