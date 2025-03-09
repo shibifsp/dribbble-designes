@@ -9,8 +9,8 @@ const page = () => {
       <div className="bg-black w-full rounded-sm">
         <header className="bg-black rounded-sm flex items-center justify-between p-6">
           <h2 className="text-sm cursor-pointer">.MENU</h2>
-          <h1 className="text-lg cursor-pointer">H'NESS CB350</h1>
-          <h2 className="text-sm cursor-pointer">LET'S TALK</h2>
+          <h1 className="text-lg cursor-pointer">H&apos;NESS CB350</h1>
+          <h2 className="text-sm cursor-pointer">LET&apos;S TALK</h2>
         </header>
         <div className="w-full bg-black p-6">
           <div className="pt-16 pb-16">
@@ -156,9 +156,9 @@ const page = () => {
         </div>
 
         <div className="py-24 w-full">
-          <h1 className="text-4xl mb-6 text-center font-semibold">HONDA H'NESS</h1>
+          <h1 className="text-4xl mb-6 text-center font-semibold">HONDA H&apos;NESS</h1>
           <p className="text-center text-xs mb-7">
-            THIS HONDA H'NESS CREATE BASICALLY FOUR MODELS FOR DEMONSTRATE OUR
+            THIS HONDA H&apos;NESS CREATE BASICALLY FOUR MODELS FOR DEMONSTRATE OUR
             ABILITY TO RIDE WITH BRAND
           </p>
           <div className=" w-full flex items-center justify-between px-10 py-10 gap-8">
@@ -225,7 +225,7 @@ const page = () => {
 
         <div className="w-full p-10">
           <div className=" text-white text-center py-12">
-            <h2 className="text-5xl mb-6">LET'S BUY</h2>
+            <h2 className="text-5xl mb-6">LET&apos;S BUY</h2>
             <p className="flex items-center gap-2 justify-center cursor-pointer">
               CONTACT US  
               <svg  fill="#ffffff" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="-30.72 -30.72 573.44 573.44"  transform="matrix(1, 0, 0, -1, 0, 0)" stroke="#ffffff" stroke-width="6.144"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="1.024"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M369.28,247.467l-181.653-133.44c-4.693-3.627-11.307-2.773-14.933,1.92c-3.627,4.693-2.773,11.307,1.92,14.933 c0.107,0.107,0.32,0.213,0.427,0.32L344.96,256L175.04,380.693c-4.8,3.52-5.76,10.133-2.24,14.933 c3.52,4.8,10.133,5.76,14.933,2.24L369.387,264.64c4.8-3.52,5.76-10.133,2.24-14.933 C370.88,248.853,370.133,248.107,369.28,247.467z"></path> </g> </g> </g> </g>
@@ -235,7 +235,7 @@ const page = () => {
 
           <div className="flex items-center w-full border-y border-[#bdbfc02d] py-10">
             <div className="flex flex-col w-6/12">
-              <h1 className="text-3xl font-bold mb-7 "> <span className="text-[#c2c0c0]">HONDA</span> H'NESS</h1>
+              <h1 className="text-3xl font-bold mb-7 "> <span className="text-[#c2c0c0]">HONDA</span> H&apos;NESS</h1>
               <h4 className="text-sm font-bold mb-3 text-[#dad7d7f3]">SUBSCRIBE TO OUR HONDA BIGWING</h4>
               <p className="text-[11px] mb-6 text-[#a7a7a7b9]">CREATIVE THINKERS WORK COLLABORATIVELY TO BRING</p>
               <form action="#" className=" py-2 px-4 border border-[#bdbfc02d] rounded-full w-4/6 flex items-center justify-between">
