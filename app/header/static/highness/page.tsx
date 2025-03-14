@@ -5,10 +5,12 @@ import Styles from "./page.module.css";
 
 const page = () => {
   return (
-    <div className="w-full p-4 bg-[#dddcdc]">
+    <div className="min-w-full p-2 sm:bg-[#dddcdc]">
       <div className="bg-black w-full rounded-sm">
-        <header className="bg-black rounded-sm flex items-center justify-between p-6">
+        <header className=" w-full bg-black rounded-sm flex items-center justify-between p-6">
           <h2 className="text-sm cursor-pointer">.MENU</h2>
+          <h2 className="text-sm cursor-pointer sm:hidden">☰</h2>
+
           <h1 className="text-lg cursor-pointer">H&apos;NESS CB350</h1>
           <h2 className="text-sm cursor-pointer">LET&apos;S TALK</h2>
         </header>
