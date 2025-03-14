@@ -5,44 +5,45 @@ import Styles from "./page.module.css";
 
 const page = () => {
   return (
-    <div className="min-w-full p-2 sm:bg-[#dddcdc]">
+    <div className="w-full min-w-full p-2 sm:bg-[#dddcdc]">
       <div className="bg-black w-full rounded-sm">
         <header className=" w-full bg-black rounded-sm flex items-center justify-between p-6">
-          <h2 className="text-sm cursor-pointer">.MENU</h2>
+          <h2 className="text-sm cursor-pointer hidden sm:block ">.MENU</h2>
           <h2 className="text-sm cursor-pointer sm:hidden">☰</h2>
 
           <h1 className="text-lg cursor-pointer">H&apos;NESS CB350</h1>
           <h2 className="text-sm cursor-pointer">LET&apos;S TALK</h2>
         </header>
-        <div className="w-full bg-black p-6">
-          <div className="pt-16 pb-16">
-            <h1 className="text-5xl font-semibold font-sans text-center">HONDA</h1>
-            <h1 className="text-5xl font-semibold font-sans text-center text-[#cccccc]">BIGWING</h1>
+        <div className="w-full bg-black p-1  sm:p-6">
+          <div className="pt-8 sm:pt-16 pb-8 sm:pb-16">
+            <h1 className="sm:text-5xl text-3xl font-semibold font-sans text-center">HONDA</h1>
+            <h1 className="sm:text-5xl text-3xl font-semibold font-sans text-center text-[#cccccc]">BIGWING</h1>
           </div>
-          <div className="relative w-full h-[580px]">
+          <div className="relative w-full sm:h-[580px] h-[200px] ">
             <Image
               src="https://www.hondabigwing.in/Content/images/desk-banner/cb350_web_banner_new_2025.jpg"
               alt="honda banner"
-              className="w-full h-full object-cover"
-              layout="fill"
+              className="w-full h-full sm:object-cover object-contain"
+              width={1920}
+              height={1080}
             />
           </div>
-          <ol className="flex items-center justify-between p-4 mt-9 mb-16 ">
+          <ol className="flex items-center justify-between p-2 sm:p-4 mt-9 mb-16 ">
             <li className="text-center ">
-              <h3 className="text-6xl">50+</h3>
-              <p className="text-[10px]">REGULAR CLIENTS</p>
+              <h3 className="text-2xl sm:text-6xl">50+</h3>
+              <p className="text-[6px] sm:text-[10px]">REGULAR CLIENTS</p>
             </li>
             <li className="text-center ">
-              <h3 className="text-5xl"> 6.2%</h3>
-              <p className="text-[10px]">YEARLY GROWTH RATE</p>
+              <h3 className="text-2xl sm:text-5xl"> 6.2%</h3>
+              <p className="text-[6px] sm:text-[10px]">YEARLY GROWTH RATE</p>
             </li>
             <li className="text-center ">
-              <h3 className="text-5xl">4.5</h3>
-              <p className="text-[10px]"> RATED BY CLIENTS</p>
+              <h3 className="text-2xl sm:text-5xl">4.5</h3>
+              <p className="text-[6px] sm:text-[10px]"> RATED BY CLIENTS</p>
             </li>
             <li className="text-center ">
-              <h3 className="text-5xl">21+</h3>
-              <p className="text-[10px]">TEAM MEMBERS</p>
+              <h3 className="text-2xl sm:text-5xl">21+</h3>
+              <p className="text-[6px] sm:text-[10px]">TEAM MEMBERS</p>
             </li>
           </ol>
           <div className="flex  justify-center p-2">
@@ -98,7 +99,7 @@ const page = () => {
               round-shaped full <br /> lead headlamps.
             </p>
           </div>
-          <div className="flex itmes-center justify-center gap-24 mt-16">
+          <div className="flex-col sm:flex itmes-center justify-center gap-24 mt-16">
             <div className={Styles.processLi}>
               <Image
                 src="/images/research-white-bgrm.png"
