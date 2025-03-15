@@ -5,7 +5,7 @@ import Styles from "./page.module.css";
 
 const page = () => {
   return (
-    <div className="w-full min-w-full p-2 md:bg-[#dddcdc]">
+    <div className="w-full min-w-full p-2 ">
       <div className="bg-black w-full rounded-sm">
         <header className=" w-full bg-black rounded-sm flex items-center justify-between p-6">
           <h2 className="text-sm cursor-pointer hidden md:block ">.MENU</h2>
