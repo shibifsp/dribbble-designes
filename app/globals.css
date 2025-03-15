@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+@layer base {
+  html, body {
+    @apply w-screen max-w-full overflow-x-hidden;
+  }
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
