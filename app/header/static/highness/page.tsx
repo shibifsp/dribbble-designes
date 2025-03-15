@@ -16,10 +16,10 @@ const page = () => {
         </header>
         <div className="w-full bg-black p-1  md:p-6">
           <div className="pt-8 md:pt-16 pb-8 md:pb-16">
-            <h1 className="md:text-5xl text-3xl font-semibold font-sans text-center">
+            <h1 className="md:text-5xl text-4xl font-semibold font-sans text-center">
               HONDA
             </h1>
-            <h1 className="md:text-5xl text-3xl font-semibold font-sans text-center text-[#cccccc]">
+            <h1 className="md:text-5xl text-4xl font-semibold font-sans text-center text-[#cccccc]">
               BIGWING
             </h1>
           </div>
@@ -32,22 +32,22 @@ const page = () => {
               height={1080}
             />
           </div>
-          <ol className="flex items-center justify-between p-2 md:p-4 mt-9 mb-16 ">
+          <ol className="flex items-center justify-between p-2 md:p-4 my-12 md:mt-9 md:mb-16 ">
             <li className="text-center ">
               <h3 className="text-2xl sm:text-3xl md:text-6xl">50+</h3>
-              <p className="text-[6px] md:text-[10px]">REGULAR CLIENTS</p>
+              <p className="text-[7px] md:text-[10px]">REGULAR CLIENTS</p>
             </li>
             <li className="text-center ">
               <h3 className="text-2xl sm:text-3xl md:text-5xl"> 6.2%</h3>
-              <p className="text-[6px] md:text-[10px]">YEARLY GROWTH RATE</p>
+              <p className="text-[7px] md:text-[10px]">YEARLY GROWTH RATE</p>
             </li>
             <li className="text-center ">
               <h3 className="text-2xl sm:text-3xl md:text-5xl">4.5</h3>
-              <p className="text-[6px] md:text-[10px]"> RATED BY CLIENTS</p>
+              <p className="text-[7px] md:text-[10px]"> RATED BY CLIENTS</p>
             </li>
             <li className="text-center ">
               <h3 className="text-2xl sm:text-3xl md:text-5xl">21+</h3>
-              <p className="text-[6px] md:text-[10px]">TEAM MEMBERS</p>
+              <p className="text-[7px] md:text-[10px]">TEAM MEMBERS</p>
             </li>
           </ol>
           <div className=" flex flex-col lg:flex-row  justify-center p-2">
@@ -62,7 +62,7 @@ const page = () => {
             </p>
           </div>
 
-          <div className="w-full p-4 mt-9 flex max-sm:flex-col items-center justify-between mb-28 ">
+          <div className="w-full p-4 mt-12 md:mt-9  mb-16 md:mb-28 flex max-sm:flex-col items-center justify-between max-md:gap-5 ">
             <div className=" relative w-34 max-sm:w-auto max-sm:h-auto h-auto">
               <Image
                 src="https://bikeindia.in/wp-content/uploads/2020/10/Hness-CB350-5-WEB.jpg"
@@ -72,7 +72,7 @@ const page = () => {
                 height={300}
               />
             </div>
-            <div className="flex justify-start max-sm:flex-col-reverse max-sm:items-center md:gap-48 md:justify-end">
+            <div className="flex justify-start max-md:flex-col-reverse max-sm:items-center md:gap-48 md:justify-end">
               <div className=" flex items-center justify-between bg-white rounded-full  h-fit w-fit text-[#222222] text-[10px] py-1 px-2 gap-2 max-sm:px-4 max-sm:mt-4 sm:mt-8">
                 <button className="font-semibold">ABOUT US</button>
                 <Link href="" className="relative -mr-2">
@@ -95,15 +95,19 @@ const page = () => {
           </div>
         </div>
 
-        <div className=" bg-[#131313] px-10 py-20">
-          <div className="flex items-center justify-between">
-            <h2 className="text-4xl">SIMPLE PROCESS</h2>
-            <p className="text-sm  text-[#B5B7B9] ">
+        <div className=" bg-[#131313] px-5 md:px-10 py-20">
+          <div className="flex items-center justify-between max-sm:block">
+            <h2 className="text-3xl sm:text-4xl">SIMPLE PROCESS</h2>
+            <p className="text-sm  text-[#B5B7B9] mt-2 sm:hidden">
+              Take on the roads with elegance and class with these
+              round-shaped full lead headlamps.
+            </p>
+            <p className="text-sm  text-[#B5B7B9] max-sm:mt-3 hidden sm:block">
               Take on the roads with elegance <br /> and class with these
               round-shaped full <br /> lead headlamps.
             </p>
           </div>
-          <div className="flex-col sm:flex itmes-center justify-center gap-24 mt-16">
+          <div className="flex flex-col md:flex-row itmes-center justify-center gap-24 mt-16">
             <div className={Styles.processLi}>
               <Image
                 src="/images/research-white-bgrm.png"
@@ -162,17 +166,17 @@ const page = () => {
           </div>
         </div>
 
-        <div className="py-24 w-full">
-          <h1 className="text-4xl mb-6 text-center font-semibold">
+        <div className="pt-24 md:py-24 w-full">
+          <h1 className="text-4xl mb-4 md:mb-6 md:text-center max-md:mx-4 font-semibold ">
             HONDA H&apos;NESS
           </h1>
-          <p className="text-center text-xs mb-7">
+          <p className="md:text-center max-md:mx-4 text-xs md:mb-7">
             THIS HONDA H&apos;NESS CREATE BASICALLY FOUR MODELS FOR DEMONSTRATE
             OUR ABILITY TO RIDE WITH BRAND
           </p>
-          <div className=" w-full flex items-center justify-between px-10 py-10 gap-8">
-            <div className="w-6/12">
-              <div className="w-full h-[400px]">
+          <div className=" w-full flex max-md:flex-col items-center justify-between px-4 md:px-10 py-10 gap-8">
+            <div className="w-full md:w-6/12">
+              <div className="w-full md:h-[400px]">
                 <Image
                   src="/images/highnessModels/highness-cb-350-dlx.webp"
                   alt="highness-dlx"
@@ -188,8 +192,8 @@ const page = () => {
                 SEO MARKETING . SOCIAL MEDIA MARKETING
               </p>
             </div>
-            <div className="w-6/12">
-              <div className="w-full h-[400px] border border-[#1f1f1f77] rounded-lg">
+            <div className="w-full md:w-6/12">
+              <div className="w-full md:h-[400px] border border-[#2c2a2ac2] rounded-lg">
                 <Image
                   src="/images/highnessModels/honda-highness-dlx-pro-2.jpeg"
                   alt="highness-dlx"
@@ -206,9 +210,9 @@ const page = () => {
               </p>
             </div>
           </div>
-          <div className=" w-full flex items-center justify-between px-10 pb-14 gap-8">
-            <div className="w-6/12">
-              <div className="w-full h-[400px]">
+          <div className=" w-full flex max-md:flex-col items-center justify-between px-4 md:px-10 pb-10 md:pb-14 gap-10">
+            <div className="w-full md:w-6/12">
+              <div className="w-full md:h-[400px]">
                 <Image
                   src="/images/highnessModels/honda-cruiser640f0a5e35798.avif"
                   alt="highness-dlx"
@@ -224,8 +228,8 @@ const page = () => {
                 SEO MARKETING . SOCIAL MEDIA MARKETING
               </p>
             </div>
-            <div className="w-6/12">
-              <div className="w-full h-[400px]">
+            <div className="w-full md:w-6/12">
+              <div className="w-full md:h-[400px]">
                 <Image
                   src="/images/highnessModels/honda-highness-customization.webp"
                   alt="highness-dlx"
@@ -254,9 +258,9 @@ const page = () => {
           </button>
         </div>
 
-        <div className="w-full p-10">
-          <div className=" text-white text-center py-12">
-            <h2 className="text-5xl mb-6">LET&apos;S BUY</h2>
+        <div className="w-full py-10 md:p-10 px-5">
+          <div className=" text-white text-center pt-10 pb-6 md:py-12">
+            <h2 className="text-3xl md:text-5xl mb-3 md:mb-6">LET&apos;S BUY</h2>
             <p className="flex items-center gap-2 justify-center cursor-pointer">
               CONTACT US
               <svg
@@ -297,25 +301,26 @@ const page = () => {
             </p>
           </div>
 
-          <div className="flex items-center w-full border-y border-[#bdbfc02d] py-10">
-            <div className="flex flex-col w-6/12">
-              <h1 className="text-3xl font-bold mb-7 ">
+          <div className="flex max-sm:flex-col items-center w-full border-y border-[#bdbfc02d] py-10">
+            <div className="flex flex-col w-full sm:w-6/12">
+              <h1 className="text-3xl font-bold mb-5 sm:mb-7 ">
                 {" "}
                 <span className="text-[#c2c0c0]">HONDA</span> H&apos;NESS
               </h1>
               <h4 className="text-sm font-bold mb-3 text-[#dad7d7f3]">
                 SUBSCRIBE TO OUR HONDA BIGWING
               </h4>
-              <p className="text-[11px] mb-6 text-[#a7a7a7b9]">
+              <p className="text-[11px] mb-4 sm:mb-6 text-[#a7a7a7b9]">
                 CREATIVE THINKERS WORK COLLABORATIVELY TO BRING
               </p>
               <form
                 action="#"
-                className=" py-2 px-4 border border-[#bdbfc02d] rounded-full w-4/6 flex items-center justify-between"
+                className=" py-2 px-4 border border-[#bdbfc034] rounded-full w-4/6 flex items-center justify-between focus-within:border-[#a7a7a7ec] transition-all duration-150 max-sm:mb-10"
               >
                 <input
                   type="email"
-                  className="w-full bg-black text-[#a7a7a7cc] text-xs focus:outline-none"
+                  className="w-full bg-black text-[#a7a7a7cc] text-xs focus:outline-none placeholder-gray-500 placeholder-opacity-50"
+                  placeholder="Enter your email"
                 />
                 <Image
                   src="/images/right-side-white-arrow-bgrm.png"
@@ -325,7 +330,7 @@ const page = () => {
                 />
               </form>
             </div>
-            <div className="flex justify-between w-6/12 ">
+            <div className="w-full flex justify-between sm:w-6/12 ">
               <div className={Styles.items}>
                 <h2>COMPANY</h2>
                 <h3>ABOUT</h3>

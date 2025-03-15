@@ -12,8 +12,34 @@
 
 }
 .processLi p {
-  font-size: 10px;
+  font-size: 11px;
 }
+
+@media (max-width: 768px) {
+  .processLi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .processLi p {
+    text-align: center;
+  }
+  .processLi h3 {
+    margin: 10px 0;
+  }
+  .processLi img {
+    margin-bottom: -2px;
+  }
+  .processLi:first-child img{
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
+  .processLi:last-child img {
+    margin-bottom: 3px;
+  }
+}
+
 
 div.items h2 {
   color: #dad7d7e3;
