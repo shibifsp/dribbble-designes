@@ -19,11 +19,11 @@
   .processLi{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
   }
   .processLi p {
-    text-align: center;
+    text-align: left;
   }
   .processLi h3 {
     margin: 10px 0;
@@ -39,6 +39,7 @@
     margin-bottom: 3px;
   }
 }
+
 
 
 div.items h2 {

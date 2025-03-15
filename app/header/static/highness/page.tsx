@@ -62,8 +62,8 @@ const page = () => {
             </p>
           </div>
 
-          <div className="w-full p-4 mt-12 md:mt-9  mb-16 md:mb-28 flex max-sm:flex-col items-center justify-between max-md:gap-5 ">
-            <div className=" relative w-34 max-sm:w-auto max-sm:h-auto h-auto">
+          <div className="w-full p-4 mt-12 md:mt-9  mb-16 md:mb-28 flex max-sm:flex-col items-center justify-between max-lg:gap-5 ">
+            <div className=" relative w-34 w-auto h-auto lg:h-[200px]">
               <Image
                 src="https://bikeindia.in/wp-content/uploads/2020/10/Hness-CB350-5-WEB.jpg"
                 alt="bike"
@@ -72,8 +72,8 @@ const page = () => {
                 height={300}
               />
             </div>
-            <div className="flex justify-start max-md:flex-col-reverse max-sm:items-center md:gap-48 md:justify-end">
-              <div className=" flex items-center justify-between bg-white rounded-full  h-fit w-fit text-[#222222] text-[10px] py-1 px-2 gap-2 max-sm:px-4 max-sm:mt-4 sm:mt-8">
+            <div className="flex justify-start max-lg:flex-col-reverse max-sm:items-center lg:gap-32 xl:gap-48 md:justify-end">
+              <div className=" flex items-center justify-between bg-[#c5c3c3] rounded-full  h-fit w-fit text-[#141414] text-[11px] font-bold py-1 px-2 gap-2 max-sm:px-4 max-md:mt-4 md:mt-8">
                 <button className="font-semibold">ABOUT US</button>
                 <Link href="" className="relative -mr-2">
                   <Image
@@ -84,7 +84,7 @@ const page = () => {
                   />
                 </Link>
               </div>  
-              <p className="text-xs text-[#B5B7B9] max-sm:mt-4 md:w-5/12">
+              <p className="text-xs text-[#B5B7B9] max-sm:mt-4 lg:w-5/12">
                 The technical specifications and design of the vehicle may vary
                 according to the requirements and conditions without any notice.
                 H’ness CB350 meets OBD-2B norms • Product shown in the picture
@@ -246,7 +246,7 @@ const page = () => {
               </p>
             </div>
           </div>
-          <button className="flex items-center justify-center text-sm py-3 px-3 mx-auto bg-[#c5c3c3ee] rounded-full gap-3 text-[#141414] font-bold">
+          <button className="flex items-center justify-center text-sm py-3 px-3 mx-auto bg-[#c5c3c3] rounded-full gap-3 text-[#141414] font-bold">
             <span className="ml-2">VIEW ALL ITEMS</span>
             <Image
               src="/images/right-arrow-svgrepo-com (1).svg"
